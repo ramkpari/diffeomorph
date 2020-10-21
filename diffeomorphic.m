@@ -17,8 +17,8 @@ maxdistortion=160; % changes max amount of distortion
 nsteps=40; % number of steps
 imsz= 1000; % size of output images (bigger or equal to 2 x input image)
 
-picpath='directory with images'
-outpicpath='output directory'
+picpath='C:\Users\Ram\OneDrive - University of Sussex\Desktop\LZ correlation\LZ_correlation\images'
+outpicpath='C:\Users\Ram\OneDrive - University of Sussex\Desktop\LZ correlation\LZ_correlation\scrambled'
 %create output directory
 if ~exist(outpicpath, 'dir')
     mkdir(outpicpath);
